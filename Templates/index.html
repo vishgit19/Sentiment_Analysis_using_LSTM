@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block content %}
+
+<h2>Sentiment Analysis </h2>
+
+<div>
+    <form action="/upload" method="post">
+        
+        <input type="text" name="t1" id="t1" >
+        <input type='submit'>
+        
+    </form>
+
+    
+      
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+</div>
+
+{% endblock %}
